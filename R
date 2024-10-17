@@ -1,0 +1,7 @@
+replace_cor <- function(x, old, new){
+    for (i in 1:length(old)){
+        x[x==old[i]] <- new[i]
+        
+    } 
+    return(x)
+}
